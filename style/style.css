@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat+Alternates:wght@400;500;600;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 780px;
+    background-color: #ECDBBA;
+}
+
+.container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.header_menu {
+    width: 1180px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 13px;
+}
+
+.list_menu ul {
+    width: 698px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.list_menu a {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2D4263;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+}
+
+.connect_btn {
+    width: 213px;
+    height: 53px;
+    background: #2D4263;
+    border-radius: 68px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: #ECDBBA; 
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: none;
+}
+
+.header_content {
+    width: 1180px;
+    height: 593px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 43px;
+    align-items: center;
+}
+
+.text_discover {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 76.7407px;
+    line-height: 87px;
+    letter-spacing: 0.03em;
+    color: #2D4263;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.red_text {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 76.7407px;
+    line-height: 87px;
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;    
+    color: #C84B31;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.text_largest {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #2D4263;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: 20px;
+}
+
+.numbers {
+    width: 395px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.numbers_price {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 113.1%;
+    letter-spacing: 0.03em;
+    color: #2D4263;
+    text-align: center;
+}
+
+.numbers_small_text {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 113.1%;
+    letter-spacing: 0.03em; 
+    color: #2D4263;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.join_now {
+    width: 150px;
+    height: 53px;
+    background-color: #ECDBBA;
+    border-radius: 68px;
+    border: 2px solid #2D4263;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2D4263;
+    margin-top: 20px;
+}
+
+.second_block {
+    height: 1218px;
+    background-color: #191919;
+}
+
+.second_block_heading {
+    width: 1180px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 93px;
+}
+
+.second_block_head_text {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.03em;
+    color: #ECDBBA;
+}
+
+.view_more_btn {
+    width: 166px;
+    height: 53px;
+    background-color: #191919;
+    border: 2px solid #ECDBBA;
+    border-radius: 68px;
+    color: #ECDBBA;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 2px;
+}
+
+.hot_drops_card {
+    width: 338px;
+    height: 410px;
+    border: 4px solid #ECDBBA;
+    border-radius: 28px;
+    padding: 17px 17px 0 17px;
+}
+
+.nft_name {
+    padding-top: 15px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.03em;
+    color: #ECDBBA;
+}
+
+.nft_user {
+    padding-top: 3px;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: #ECDBBA;
+}
+
+.nft_price {
+    padding-top: 16px;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: #ECDBBA;
+}
+
+.price_icon {
+    display: flex;
+    width: 299px;
+    height: 26px;
+    justify-content: space-between;
+}
+
+.hot_drops_cards_first {
+    width: 1180px;
+    height: 410px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.hot_drops_cards_second {
+    width: 1180px;
+    height: 410px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 83px;
+}
+
+.third_block {
+    height: 601px;
+    margin: 0 auto;
+    background-color: #191919;
+}
+
+.third_heading {
+    text-align: center;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.03em;
+    color: #ECDBBA;
+}
+
+.third_cards {
+    width: 1180px;
+    height: 386px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 36px;
+}
+
+.third_card {
+    width: 337px;
+    height: 386px;
+    border-radius: 28px;
+    background-color: #2D4263;
+    text-align: center;
+}
+
+.third_card_image {
+    padding-top: 14px;
+}
+
+.third_card_big_text {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.03em; 
+    color: #ECDBBA;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    padding-top: 4px;
+}
+
+.third_card_small_text {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #ECDBBA;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    padding-top: 4px;
+}
+
+
+.forth_block {
+    height: 436px;
+    margin: 0 auto;
+    background-color: #191919;
+}
+
+.orange_block {
+    width: 1180px;
+    height: 300px;
+    background-color: #C84B31;
+    text-align: center;
+    border-radius: 42px;
+}
+
+.orange_block_big_text {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.03em;
+    color: #ECDBBA;
+    padding-top: 57px;
+}
+
+.orange_block_small_text {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #ECDBBA;
+    padding-top: 15px;
+}
+
+.discord_btn {
+    width: 252px;
+    height: 53px;
+    border-radius: 68px;
+    background-color: #2D4263;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: #ECDBBA;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border: none;
+    margin-top: 36px;   
+}
+
+.line_foot {
+    height: 0px;
+    left: 0px;
+    top: 3489px;
+    border: 5px solid #ECDBBA;
+}
+
+.footer {
+    height: 252px;
+    margin: 0 auto;
+    background-color: #191919;
+}
+
+.footer_menu {
+    width: 1129px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot_first {
+    padding-top: 44px;
+}
+
+.foot_logo_text {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #ECDBBA;
+    margin-top: 11px;
+}
+
+.foot_big_text {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: #ECDBBA;
+    padding-top: 83px;
+    padding-bottom: 11px;
+}
+
+.foot_small_text {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #ECDBBA;
+    padding-top: 10px;
+}
+
+.foot_forth_btn {
+    width: 221px;
+    height: 36px;
+    border-radius: 68px;
+    margin-top: 10px;
+    background-color: #191919;
+    color: #ECDBBA;
+    border: 1px solid #ECDBBA;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #ECDBBA;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
